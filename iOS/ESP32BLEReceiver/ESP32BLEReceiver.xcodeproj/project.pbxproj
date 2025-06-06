@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A5A5420D2DE9EE180048F2CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A541EE2DE9EE150048F2CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A541F52DE9EE150048F2CE;
+			remoteInfo = ESP32BLEReceiver;
+		};
+		A5A542172DE9EE180048F2CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A541EE2DE9EE150048F2CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A541F52DE9EE150048F2CE;
+			remoteInfo = ESP32BLEReceiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5A541F62DE9EE150048F2CE /* ESP32BLEReceiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESP32BLEReceiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A5420C2DE9EE180048F2CE /* ESP32BLEReceiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESP32BLEReceiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A542162DE9EE180048F2CE /* ESP32BLEReceiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESP32BLEReceiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A5A5421E2DE9EE180048F2CE /* Exceptions for "ESP32BLEReceiver" folder in "ESP32BLEReceiver" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A5A541F52DE9EE150048F2CE /* ESP32BLEReceiver */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A5A541F82DE9EE150048F2CE /* ESP32BLEReceiver */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A5A5421E2DE9EE180048F2CE /* Exceptions for "ESP32BLEReceiver" folder in "ESP32BLEReceiver" target */,
+			);
+			path = ESP32BLEReceiver;
+			sourceTree = "<group>";
+		};
+		A5A5420F2DE9EE180048F2CE /* ESP32BLEReceiverTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ESP32BLEReceiverTests;
+			sourceTree = "<group>";
+		};
+		A5A542192DE9EE180048F2CE /* ESP32BLEReceiverUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ESP32BLEReceiverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A541F32DE9EE150048F2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A542092DE9EE180048F2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A542132DE9EE180048F2CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5A541ED2DE9EE150048F2CE = {
+			isa = PBXGroup;
+			children = (
+				A5A541F82DE9EE150048F2CE /* ESP32BLEReceiver */,
+				A5A5420F2DE9EE180048F2CE /* ESP32BLEReceiverTests */,
+				A5A542192DE9EE180048F2CE /* ESP32BLEReceiverUITests */,
+				A5A541F72DE9EE150048F2CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A541F72DE9EE150048F2CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A541F62DE9EE150048F2CE /* ESP32BLEReceiver.app */,
+				A5A5420C2DE9EE180048F2CE /* ESP32BLEReceiverTests.xctest */,
+				A5A542162DE9EE180048F2CE /* ESP32BLEReceiverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A541F52DE9EE150048F2CE /* ESP32BLEReceiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A5421F2DE9EE180048F2CE /* Build configuration list for PBXNativeTarget "ESP32BLEReceiver" */;
+			buildPhases = (
+				A5A541F22DE9EE150048F2CE /* Sources */,
+				A5A541F32DE9EE150048F2CE /* Frameworks */,
+				A5A541F42DE9EE150048F2CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A5A541F82DE9EE150048F2CE /* ESP32BLEReceiver */,
+			);
+			name = ESP32BLEReceiver;
+			packageProductDependencies = (
+			);
+			productName = ESP32BLEReceiver;
+			productReference = A5A541F62DE9EE150048F2CE /* ESP32BLEReceiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5A5420B2DE9EE180048F2CE /* ESP32BLEReceiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A542242DE9EE180048F2CE /* Build configuration list for PBXNativeTarget "ESP32BLEReceiverTests" */;
+			buildPhases = (
+				A5A542082DE9EE180048F2CE /* Sources */,
+				A5A542092DE9EE180048F2CE /* Frameworks */,
+				A5A5420A2DE9EE180048F2CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A5420E2DE9EE180048F2CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A5A5420F2DE9EE180048F2CE /* ESP32BLEReceiverTests */,
+			);
+			name = ESP32BLEReceiverTests;
+			packageProductDependencies = (
+			);
+			productName = ESP32BLEReceiverTests;
+			productReference = A5A5420C2DE9EE180048F2CE /* ESP32BLEReceiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5A542152DE9EE180048F2CE /* ESP32BLEReceiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A542272DE9EE180048F2CE /* Build configuration list for PBXNativeTarget "ESP32BLEReceiverUITests" */;
+			buildPhases = (
+				A5A542122DE9EE180048F2CE /* Sources */,
+				A5A542132DE9EE180048F2CE /* Frameworks */,
+				A5A542142DE9EE180048F2CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A542182DE9EE180048F2CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A5A542192DE9EE180048F2CE /* ESP32BLEReceiverUITests */,
+			);
+			name = ESP32BLEReceiverUITests;
+			packageProductDependencies = (
+			);
+			productName = ESP32BLEReceiverUITests;
+			productReference = A5A542162DE9EE180048F2CE /* ESP32BLEReceiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A541EE2DE9EE150048F2CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A5A541F52DE9EE150048F2CE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A5A5420B2DE9EE180048F2CE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A5A541F52DE9EE150048F2CE;
+					};
+					A5A542152DE9EE180048F2CE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A5A541F52DE9EE150048F2CE;
+					};
+				};
+			};
+			buildConfigurationList = A5A541F12DE9EE150048F2CE /* Build configuration list for PBXProject "ESP32BLEReceiver" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A541ED2DE9EE150048F2CE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A5A541F72DE9EE150048F2CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A541F52DE9EE150048F2CE /* ESP32BLEReceiver */,
+				A5A5420B2DE9EE180048F2CE /* ESP32BLEReceiverTests */,
+				A5A542152DE9EE180048F2CE /* ESP32BLEReceiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A541F42DE9EE150048F2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A5420A2DE9EE180048F2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A542142DE9EE180048F2CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A541F22DE9EE150048F2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A542082DE9EE180048F2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A542122DE9EE180048F2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A5420E2DE9EE180048F2CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A541F52DE9EE150048F2CE /* ESP32BLEReceiver */;
+			targetProxy = A5A5420D2DE9EE180048F2CE /* PBXContainerItemProxy */;
+		};
+		A5A542182DE9EE180048F2CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A541F52DE9EE150048F2CE /* ESP32BLEReceiver */;
+			targetProxy = A5A542172DE9EE180048F2CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5A542202DE9EE180048F2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MD2V26S7NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ESP32BLEReceiver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = acd.ESP32BLEReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A542212DE9EE180048F2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MD2V26S7NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ESP32BLEReceiver/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = acd.ESP32BLEReceiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5A542222DE9EE180048F2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5A542232DE9EE180048F2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A542252DE9EE180048F2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = acd.ESP32BLEReceiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESP32BLEReceiver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ESP32BLEReceiver";
+			};
+			name = Debug;
+		};
+		A5A542262DE9EE180048F2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = acd.ESP32BLEReceiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESP32BLEReceiver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ESP32BLEReceiver";
+			};
+			name = Release;
+		};
+		A5A542282DE9EE180048F2CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MD2V26S7NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = acd.ESP32BLEReceiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ESP32BLEReceiver;
+			};
+			name = Debug;
+		};
+		A5A542292DE9EE180048F2CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MD2V26S7NU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = acd.ESP32BLEReceiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ESP32BLEReceiver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A541F12DE9EE150048F2CE /* Build configuration list for PBXProject "ESP32BLEReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A542222DE9EE180048F2CE /* Debug */,
+				A5A542232DE9EE180048F2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A5421F2DE9EE180048F2CE /* Build configuration list for PBXNativeTarget "ESP32BLEReceiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A542202DE9EE180048F2CE /* Debug */,
+				A5A542212DE9EE180048F2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A542242DE9EE180048F2CE /* Build configuration list for PBXNativeTarget "ESP32BLEReceiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A542252DE9EE180048F2CE /* Debug */,
+				A5A542262DE9EE180048F2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A542272DE9EE180048F2CE /* Build configuration list for PBXNativeTarget "ESP32BLEReceiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A542282DE9EE180048F2CE /* Debug */,
+				A5A542292DE9EE180048F2CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A541EE2DE9EE150048F2CE /* Project object */;
+}
