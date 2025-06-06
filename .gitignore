@@ -1,4 +1,7 @@
-# ===== iOS / Xcode =====
+# macOS system files
+.DS_Store
+
+# Xcode build artifacts
 build/
 DerivedData/
 *.xcuserstate
@@ -6,11 +9,9 @@ DerivedData/
 *.xcodeproj/project.xcworkspace/
 *.xcodeproj/xcuserdata/
 *.xcodeproj/*.xcuserdatad
-*.DS_Store
 
-# CocoaPods / Carthage (if used later)
+# CocoaPods (if used)
 Pods/
-Carthage/
 
 # Swift Package Manager
 .swiftpm/
@@ -22,7 +23,7 @@ Carthage/
 # Xcode previews
 *.preview-thumbnails
 
-# ===== ESP32 (ESP-IDF) =====
+# ESP32 (ESP-IDF) build artifacts
 *.elf
 *.bin
 *.map
@@ -42,5 +43,4 @@ __pycache__/
 *.ino.*
 
 # General system files
-.DS_Store
 Thumbs.db
