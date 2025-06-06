@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# ESP32 / Arduino
+*.elf
+*.bin
+*.hex
+*.map
+*.log
+*.o
+*.pyc
+__pycache__/
+.vscode/
+sdkconfig
+sdkconfig.old
+build/
+
+# General node_modules or 3rd-party junk (just in case)
+node_modules/
+.env
+*.swp
+*.bak
+*.tmp
